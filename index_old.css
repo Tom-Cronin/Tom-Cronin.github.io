@@ -1,0 +1,27 @@
+
+:root {
+    --green: #3a5912;
+    --lime: #92a038;
+    --white: #dcdada;
+    --blue: #8492a3;
+    --cream: #b9bb88;
+    --black: #282b31;
+    --grey: #393D45FF;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "topbar     topbar      topbar"
+        "ads        content     sidebar"
+        "footer     footer      footer";
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 50px auto 70px;
+
+}
+
+header {grid-area: topbar;}
+aside {grid-area: ads;}
+main {grid-area: content;}
+nav {grid-area: topbar;}
+footer {grid-area: footer;}

@@ -4,22 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index_old.css">
         <title>Your Name - Portfolio</title>
     </head>
     <body>
         <header class="header">
             <h1>Tom Cronin</h1>
-            <p>Software Engineer | Web Developer | Project Enthusiast</p>
+            <p>Full-Stack Engineer</p>
         </header>
-
+        <nav>
+            <ul>
+                <li><a href="https://tom-cronin.github.io/">Home</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li style="float:right"><a class="active" href="#about">About</a></li>
+            </ul>
+        </nav>
         <main class="main">
-            <section class="section">
+            <section class="section" id="about-me">
                 <h2>About Me</h2>
                 <p>Write a brief introduction about yourself, your interests, and your skills.</p>
             </section>
 
-            <section class="section">
+            <section class="section" id="projects">
                 <h2>Projects</h2>
                 <article class="project-item" style="display: flex; align-items: center;">
                     <i class="fas fa-folder" style="font-size: 24px; margin-right: 10px;"></i>

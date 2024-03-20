@@ -1,0 +1,6 @@
+.basic-grid {
+    display: grid;
+    gap: 1rem; /* gives spaces between the grid children*/
+    /* implicit grid~*/
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
